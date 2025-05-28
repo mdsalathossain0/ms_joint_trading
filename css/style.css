@@ -1,0 +1,194 @@
+.box{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* header part strat */
+header{
+    background: #F18F01;
+
+}
+
+header .box p {
+    margin-bottom: 0;
+    color: #FEFEFE;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+header .box p span{
+    padding-right: 8px;
+}
+header input{
+    padding: 10px 10px;
+    border: 0;
+}
+header .input {
+    position: relative;
+}
+header .input i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+    font-size: 12px;
+}
+/* header part end */
+/* nav part start */
+nav{
+    background: #051951;
+}
+nav .left{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+nav .left .title{
+    color: #FEFEFE;
+    font-size: 22px;
+    font-weight: medium;
+    font-family: "Open Sans", sans-serif;
+}
+nav .right ul{
+    display: flex;
+    column-gap: 32px;
+    justify-content: end;
+}
+nav .right ul li a{
+    color: #FEFEFE;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Miriam Libre";
+}
+/* nav part end */
+/* heading-part start */
+.heading-part{
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 970px;
+}
+.heading-part .header-title{
+    width: 670px;
+    padding-top:  190px;
+
+}
+.heading-part .header-title h1{
+    color: #FFFFFF;
+    font-size: 68px;
+    font-weight: bold;
+    font-family: "Miriam Libre";
+
+}
+.heading-part .header-title h1 span{
+    color: #F18F01;
+}
+.heading-part .info {
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.heading-part .info p{
+    color: white;
+    width: 140px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.heading-part .info p span{
+    color: #F18F01;
+    padding-right: 10px;
+}
+.heading-part .button a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Miriam Libre";
+    background: #F18F01;
+    padding: 16px;
+    padding-left: 32px;
+    padding-right: 62px;
+    display: inline-block;
+    
+}
+.heading-part .button {
+   padding-top: 30px;  
+   position: relative;
+}
+.heading-part .button i{
+   color: white;
+   position: absolute;
+   top: 67%;
+   transform: translateY(-50%);
+   left: 193px;
+}
+/* heading-part end */
+/* footer part start */
+footer{
+    background: #051951;
+    padding: 100px 0;
+}
+footer h6{
+    color: #F18F01;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+footer h3{
+    color: #F4F4F4;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: "Miriam Libre";
+    padding-top: 32px;
+    line-height: 140%;
+}
+footer p{
+    color: #F4F4F4;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Open Sans";
+    padding-top: 32px;
+    line-height: 170%;
+}
+footer a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Miriam Libre";
+    background: #F18F01;
+    padding: 16px;
+    padding-left: 32px;
+    padding-right: 62px;
+    display: inline-block;
+}
+footer .right{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #32467E;
+}
+footer .right p{
+    width: 370px;
+    color: #F4F4F4;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Open Sans";
+}
+footer .right h2{
+    color: #FEFEFE;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+/* footer part end */
